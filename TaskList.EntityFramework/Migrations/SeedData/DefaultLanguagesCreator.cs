@@ -25,6 +25,7 @@ namespace TaskList.Migrations.SeedData
                 new ApplicationLanguage(null, "ja", "日本語", "famfamfam-flag-jp"),
                 new ApplicationLanguage(null, "nl-NL", "Nederlands", "famfamfam-flag-nl"),
                 new ApplicationLanguage(null, "lt", "Lietuvos", "famfamfam-flag-lt"),
+                new ApplicationLanguage(null, "pl", "Polski", "famfamfam-flag-pl"),
             };
         }
 

@@ -30412,3 +30412,310 @@ DEBUG 2017-01-09 23:54:49,470 [22   ] Abp.Logging.LogHelper                    -
 DEBUG 2017-01-09 23:54:49,471 [22   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaskList.Roles.IRoleAppService' with service name 'app/role'.
 DEBUG 2017-01-09 23:54:49,472 [22   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaskList.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
 DEBUG 2017-01-09 23:54:50,655 [17   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected (on reconnected event): {"ConnectionId":"abf865ed-db69-4d1e-bf1e-7c03fe81ba09","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-01-09T23:54:50.6254325+01:00","Properties":{}}
+DEBUG 2017-01-10 00:05:28,926 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-01-10 00:05:29,185 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2017-01-10 00:05:29,188 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TaskList.Web.TaskListWebModule, TaskList.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-10 00:05:29,189 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TaskList.TaskListDataModule, TaskList.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-10 00:05:29,190 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-10 00:05:29,190 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-10 00:05:29,190 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-10 00:05:29,190 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-10 00:05:29,190 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TaskList.TaskListCoreModule, TaskList.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-10 00:05:29,190 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TaskList.TaskListApplicationModule, TaskList.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-10 00:05:29,190 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-10 00:05:29,191 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TaskList.Api.TaskListWebApiModule, TaskList.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-10 00:05:29,191 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-10 00:05:29,191 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-10 00:05:29,191 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-10 00:05:29,191 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-10 00:05:29,191 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-10 00:05:29,193 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2017-01-10 00:05:29,670 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-01-10 00:05:29,670 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-01-10 00:05:29,670 [1    ] o.Configuration.LanguageManagementConfig - Converted TaskList (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-01-10 00:05:29,670 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-01-10 00:05:30,020 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: TaskList.EntityFramework.TaskListDbContext, TaskList.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-10 00:05:30,388 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-01-10 00:05:30,393 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-01-10 00:05:30,394 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-01-10 00:05:30,395 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: TaskList
+DEBUG 2017-01-10 00:05:30,396 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-01-10 00:05:30,445 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-01-10 00:05:30,485 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2017-01-10 00:05:30,485 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaskList.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-01-10 00:05:30,488 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaskList.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-01-10 00:05:30,488 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaskList.Users.Dto.CreateUserInput
+DEBUG 2017-01-10 00:05:30,488 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaskList.Users.Dto.UserListDto
+DEBUG 2017-01-10 00:05:30,488 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaskList.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-01-10 00:05:30,488 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaskList.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-01-10 00:05:30,488 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaskList.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-01-10 00:05:31,395 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaskList.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-01-10 00:05:31,396 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaskList.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-01-10 00:05:31,397 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaskList.Tasks.ITaskAppService' with service name 'app/task'.
+DEBUG 2017-01-10 00:05:31,398 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaskList.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-01-10 00:05:31,399 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaskList.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-01-10 00:05:32,704 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"5d2578a4-9bda-4ddd-9abf-09c49356ab95","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-01-10T00:05:32.693823+01:00","Properties":{}}
+DEBUG 2017-01-10 00:06:01,751 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"25a472a9-167d-440d-a4f7-e389bebe1d14","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-01-10T00:06:01.7510054+01:00","Properties":{}}
+DEBUG 2017-01-10 00:06:01,779 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 25a472a9-167d-440d-a4f7-e389bebe1d14
+DEBUG 2017-01-10 00:06:27,704 [22   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 5d2578a4-9bda-4ddd-9abf-09c49356ab95
+WARN  2017-01-10 00:09:24,382 [28   ] skList.Web.Controllers.AccountController - Login failed!
+Abp.UI.UserFriendlyException: Login failed!
+   at TaskList.Web.Controllers.AccountController.<GetLoginResultAsync>d__11.MoveNext() in C:\Projects\TaskList\TaskList.Web\Controllers\AccountController.cs:line 114
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at TaskList.Web.Controllers.AccountController.<Login>d__10.MoveNext() in C:\Projects\TaskList\TaskList.Web\Controllers\AccountController.cs:line 84
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2017-01-10 00:09:32,178 [33   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"a3684e9a-b88c-45a1-9bac-124c53bd7c12","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-01-10T00:09:32.1778322+01:00","Properties":{}}
+DEBUG 2017-01-10 00:09:32,181 [52   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: a3684e9a-b88c-45a1-9bac-124c53bd7c12
+DEBUG 2017-01-10 00:09:46,758 [54   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: a3684e9a-b88c-45a1-9bac-124c53bd7c12
+DEBUG 2017-01-10 00:09:47,115 [57   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"92af0f33-8bd8-4493-8daf-a3992d06e273","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-01-10T00:09:47.115794+01:00","Properties":{}}
+DEBUG 2017-01-10 00:09:47,121 [57   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 92af0f33-8bd8-4493-8daf-a3992d06e273
+DEBUG 2017-01-10 00:09:50,121 [56   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 92af0f33-8bd8-4493-8daf-a3992d06e273
+DEBUG 2017-01-10 00:09:50,316 [28   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"8024b12a-9f82-4c67-a661-662885b110d6","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-01-10T00:09:50.3158233+01:00","Properties":{}}
+DEBUG 2017-01-10 00:09:50,328 [46   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 8024b12a-9f82-4c67-a661-662885b110d6
+DEBUG 2017-01-10 00:09:52,807 [46   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 25a472a9-167d-440d-a4f7-e389bebe1d14
+DEBUG 2017-01-10 00:09:53,524 [56   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 8024b12a-9f82-4c67-a661-662885b110d6
+DEBUG 2017-01-10 00:09:53,724 [56   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"1e07f1f8-5d5d-4046-b061-d857194dc478","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-01-10T00:09:53.724425+01:00","Properties":{}}
+DEBUG 2017-01-10 00:09:53,727 [59   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 1e07f1f8-5d5d-4046-b061-d857194dc478
+DEBUG 2017-01-10 00:09:55,752 [55   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 1e07f1f8-5d5d-4046-b061-d857194dc478
+DEBUG 2017-01-10 00:09:55,942 [59   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"8da33ca2-4afe-4830-93d3-6abe7d3ce664","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-01-10T00:09:55.9423644+01:00","Properties":{}}
+DEBUG 2017-01-10 00:09:55,947 [32   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 8da33ca2-4afe-4830-93d3-6abe7d3ce664
+DEBUG 2017-01-10 00:26:44,819 [14   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 8da33ca2-4afe-4830-93d3-6abe7d3ce664
+DEBUG 2017-01-10 00:26:45,293 [15   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"1f2caf78-e21f-4abd-a73f-7d1f72ab1d78","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-01-10T00:26:45.2938732+01:00","Properties":{}}
+DEBUG 2017-01-10 00:26:45,301 [62   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 1f2caf78-e21f-4abd-a73f-7d1f72ab1d78
+DEBUG 2017-01-10 00:27:24,270 [24   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 1f2caf78-e21f-4abd-a73f-7d1f72ab1d78
+DEBUG 2017-01-10 00:27:25,516 [23   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"87f3fe03-bf62-41a7-9a0a-15c473780111","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-01-10T00:27:25.5155411+01:00","Properties":{}}
+DEBUG 2017-01-10 00:27:25,524 [15   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 87f3fe03-bf62-41a7-9a0a-15c473780111
+DEBUG 2017-01-10 00:38:10,632 [19   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2017-01-10 00:38:10,632 [19   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-01-10 00:38:10,633 [19   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-01-10 00:38:10,633 [19   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2017-01-10 00:38:14,896 [22   ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-01-10 00:38:14,905 [22   ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2017-01-10 00:38:14,909 [22   ] Abp.Modules.AbpModuleManager             - Loaded module: TaskList.Web.TaskListWebModule, TaskList.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-10 00:38:14,910 [22   ] Abp.Modules.AbpModuleManager             - Loaded module: TaskList.TaskListDataModule, TaskList.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-10 00:38:14,910 [22   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-10 00:38:14,910 [22   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-10 00:38:14,910 [22   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-10 00:38:14,910 [22   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-10 00:38:14,911 [22   ] Abp.Modules.AbpModuleManager             - Loaded module: TaskList.TaskListCoreModule, TaskList.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-10 00:38:14,911 [22   ] Abp.Modules.AbpModuleManager             - Loaded module: TaskList.TaskListApplicationModule, TaskList.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-10 00:38:14,911 [22   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-10 00:38:14,911 [22   ] Abp.Modules.AbpModuleManager             - Loaded module: TaskList.Api.TaskListWebApiModule, TaskList.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-10 00:38:14,911 [22   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-10 00:38:14,911 [22   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-10 00:38:14,911 [22   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-10 00:38:14,911 [22   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-10 00:38:14,911 [22   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-10 00:38:14,913 [22   ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2017-01-10 00:38:15,035 [22   ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-01-10 00:38:15,035 [22   ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-01-10 00:38:15,035 [22   ] o.Configuration.LanguageManagementConfig - Converted TaskList (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-01-10 00:38:15,035 [22   ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-01-10 00:38:15,322 [22   ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: TaskList.EntityFramework.TaskListDbContext, TaskList.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-10 00:38:16,036 [22   ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-01-10 00:38:16,039 [22   ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-01-10 00:38:16,040 [22   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-01-10 00:38:16,042 [22   ] Abp.Localization.LocalizationManager     - Initialized localization source: TaskList
+DEBUG 2017-01-10 00:38:16,042 [22   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-01-10 00:38:16,089 [22   ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-01-10 00:38:16,120 [22   ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2017-01-10 00:38:16,120 [22   ] Abp.AutoMapper.AbpAutoMapperModule       - TaskList.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-01-10 00:38:16,122 [22   ] Abp.AutoMapper.AbpAutoMapperModule       - TaskList.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-01-10 00:38:16,122 [22   ] Abp.AutoMapper.AbpAutoMapperModule       - TaskList.Users.Dto.CreateUserInput
+DEBUG 2017-01-10 00:38:16,123 [22   ] Abp.AutoMapper.AbpAutoMapperModule       - TaskList.Users.Dto.UserListDto
+DEBUG 2017-01-10 00:38:16,123 [22   ] Abp.AutoMapper.AbpAutoMapperModule       - TaskList.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-01-10 00:38:16,123 [22   ] Abp.AutoMapper.AbpAutoMapperModule       - TaskList.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-01-10 00:38:16,123 [22   ] Abp.AutoMapper.AbpAutoMapperModule       - TaskList.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-01-10 00:38:16,992 [22   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaskList.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-01-10 00:38:16,993 [22   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaskList.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-01-10 00:38:16,994 [22   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaskList.Tasks.ITaskAppService' with service name 'app/task'.
+DEBUG 2017-01-10 00:38:16,995 [22   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaskList.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-01-10 00:38:16,996 [22   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaskList.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-01-10 00:38:17,296 [63   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected (on reconnected event): {"ConnectionId":"87f3fe03-bf62-41a7-9a0a-15c473780111","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-01-10T00:38:17.2664119+01:00","Properties":{}}
+DEBUG 2017-01-10 00:38:23,552 [17   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 87f3fe03-bf62-41a7-9a0a-15c473780111
+DEBUG 2017-01-10 00:38:24,353 [63   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"65fa862a-32e8-4ff4-a960-d1146f5092dc","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-01-10T00:38:24.3529763+01:00","Properties":{}}
+DEBUG 2017-01-10 00:38:24,373 [63   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 65fa862a-32e8-4ff4-a960-d1146f5092dc
+DEBUG 2017-01-10 00:38:27,381 [18   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 65fa862a-32e8-4ff4-a960-d1146f5092dc
+DEBUG 2017-01-10 00:38:27,868 [68   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"3c5dbbf4-a6f3-41f6-953c-d8c341f79aa4","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-01-10T00:38:27.8688138+01:00","Properties":{}}
+DEBUG 2017-01-10 00:38:27,894 [61   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 3c5dbbf4-a6f3-41f6-953c-d8c341f79aa4
+DEBUG 2017-01-10 00:38:37,116 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 3c5dbbf4-a6f3-41f6-953c-d8c341f79aa4
+DEBUG 2017-01-10 00:38:37,607 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"1e2f914a-a3a7-474a-b71a-89470edbd8cd","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-01-10T00:38:37.6073051+01:00","Properties":{}}
+DEBUG 2017-01-10 00:38:37,627 [67   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 1e2f914a-a3a7-474a-b71a-89470edbd8cd
+DEBUG 2017-01-10 00:43:34,545 [32   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 1e2f914a-a3a7-474a-b71a-89470edbd8cd
+DEBUG 2017-01-10 00:43:35,038 [28   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"90ac1d15-9fee-4ca1-9199-24956f83271e","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-01-10T00:43:35.0386325+01:00","Properties":{}}
+DEBUG 2017-01-10 00:43:35,049 [25   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 90ac1d15-9fee-4ca1-9199-24956f83271e
+DEBUG 2017-01-10 00:44:39,292 [28   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 90ac1d15-9fee-4ca1-9199-24956f83271e
+DEBUG 2017-01-10 00:44:39,817 [28   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"a37114fc-3944-4649-8064-af5b0011d928","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-01-10T00:44:39.816737+01:00","Properties":{}}
+DEBUG 2017-01-10 00:44:39,820 [25   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: a37114fc-3944-4649-8064-af5b0011d928
+DEBUG 2017-01-10 01:04:43,580 [92   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: a37114fc-3944-4649-8064-af5b0011d928
+DEBUG 2017-01-10 01:06:03,239 [96   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2017-01-10 01:06:03,240 [96   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-01-10 01:06:03,240 [96   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-01-10 01:06:03,240 [96   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2017-01-10 01:06:11,602 [60   ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-01-10 01:06:11,612 [60   ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2017-01-10 01:06:11,615 [60   ] Abp.Modules.AbpModuleManager             - Loaded module: TaskList.Web.TaskListWebModule, TaskList.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-10 01:06:11,617 [60   ] Abp.Modules.AbpModuleManager             - Loaded module: TaskList.TaskListDataModule, TaskList.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-10 01:06:11,617 [60   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-10 01:06:11,617 [60   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-10 01:06:11,617 [60   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-10 01:06:11,617 [60   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-10 01:06:11,617 [60   ] Abp.Modules.AbpModuleManager             - Loaded module: TaskList.TaskListCoreModule, TaskList.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-10 01:06:11,617 [60   ] Abp.Modules.AbpModuleManager             - Loaded module: TaskList.TaskListApplicationModule, TaskList.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-10 01:06:11,617 [60   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-10 01:06:11,618 [60   ] Abp.Modules.AbpModuleManager             - Loaded module: TaskList.Api.TaskListWebApiModule, TaskList.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-10 01:06:11,618 [60   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-10 01:06:11,618 [60   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-10 01:06:11,618 [60   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-10 01:06:11,618 [60   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-10 01:06:11,618 [60   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-10 01:06:11,620 [60   ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2017-01-10 01:06:11,695 [60   ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-01-10 01:06:11,695 [60   ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-01-10 01:06:11,695 [60   ] o.Configuration.LanguageManagementConfig - Converted TaskList (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-01-10 01:06:11,695 [60   ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-01-10 01:06:11,984 [60   ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: TaskList.EntityFramework.TaskListDbContext, TaskList.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-10 01:06:12,569 [60   ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-01-10 01:06:12,573 [60   ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-01-10 01:06:12,574 [60   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-01-10 01:06:12,576 [60   ] Abp.Localization.LocalizationManager     - Initialized localization source: TaskList
+DEBUG 2017-01-10 01:06:12,577 [60   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-01-10 01:06:12,623 [60   ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-01-10 01:06:12,655 [60   ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2017-01-10 01:06:12,655 [60   ] Abp.AutoMapper.AbpAutoMapperModule       - TaskList.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-01-10 01:06:12,657 [60   ] Abp.AutoMapper.AbpAutoMapperModule       - TaskList.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-01-10 01:06:12,657 [60   ] Abp.AutoMapper.AbpAutoMapperModule       - TaskList.Users.Dto.CreateUserInput
+DEBUG 2017-01-10 01:06:12,657 [60   ] Abp.AutoMapper.AbpAutoMapperModule       - TaskList.Users.Dto.UserListDto
+DEBUG 2017-01-10 01:06:12,657 [60   ] Abp.AutoMapper.AbpAutoMapperModule       - TaskList.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-01-10 01:06:12,658 [60   ] Abp.AutoMapper.AbpAutoMapperModule       - TaskList.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-01-10 01:06:12,658 [60   ] Abp.AutoMapper.AbpAutoMapperModule       - TaskList.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-01-10 01:06:13,548 [60   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaskList.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-01-10 01:06:13,549 [60   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaskList.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-01-10 01:06:13,550 [60   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaskList.Tasks.ITaskAppService' with service name 'app/task'.
+DEBUG 2017-01-10 01:06:13,551 [60   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaskList.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-01-10 01:06:13,552 [60   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaskList.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-01-10 01:06:16,741 [102  ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"8a58bb38-1fc2-434a-b1a9-633321a9925a","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-01-10T01:06:16.7365846+01:00","Properties":{}}
+DEBUG 2017-01-10 01:06:16,763 [96   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 8a58bb38-1fc2-434a-b1a9-633321a9925a
+DEBUG 2017-01-10 01:06:48,263 [96   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 8a58bb38-1fc2-434a-b1a9-633321a9925a
+DEBUG 2017-01-10 01:06:48,850 [105  ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"133956b9-99da-48bd-8e75-7e62b9e877e3","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-01-10T01:06:48.850309+01:00","Properties":{}}
+DEBUG 2017-01-10 01:06:48,857 [105  ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 133956b9-99da-48bd-8e75-7e62b9e877e3
+DEBUG 2017-01-10 01:07:03,940 [102  ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2017-01-10 01:07:03,940 [102  ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-01-10 01:07:03,940 [102  ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-01-10 01:07:03,940 [102  ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2017-01-10 01:07:06,411 [22   ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-01-10 01:07:06,661 [22   ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2017-01-10 01:07:06,665 [22   ] Abp.Modules.AbpModuleManager             - Loaded module: TaskList.Web.TaskListWebModule, TaskList.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-10 01:07:06,666 [22   ] Abp.Modules.AbpModuleManager             - Loaded module: TaskList.TaskListDataModule, TaskList.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-10 01:07:06,666 [22   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-10 01:07:06,666 [22   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-10 01:07:06,666 [22   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-10 01:07:06,667 [22   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-10 01:07:06,667 [22   ] Abp.Modules.AbpModuleManager             - Loaded module: TaskList.TaskListCoreModule, TaskList.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-10 01:07:06,667 [22   ] Abp.Modules.AbpModuleManager             - Loaded module: TaskList.TaskListApplicationModule, TaskList.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-10 01:07:06,667 [22   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-10 01:07:06,667 [22   ] Abp.Modules.AbpModuleManager             - Loaded module: TaskList.Api.TaskListWebApiModule, TaskList.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-10 01:07:06,667 [22   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-10 01:07:06,667 [22   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-10 01:07:06,667 [22   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-10 01:07:06,668 [22   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-10 01:07:06,668 [22   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-10 01:07:06,670 [22   ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2017-01-10 01:07:07,176 [22   ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-01-10 01:07:07,176 [22   ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-01-10 01:07:07,176 [22   ] o.Configuration.LanguageManagementConfig - Converted TaskList (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-01-10 01:07:07,176 [22   ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-01-10 01:07:07,512 [22   ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: TaskList.EntityFramework.TaskListDbContext, TaskList.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-10 01:07:07,859 [22   ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-01-10 01:07:07,863 [22   ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-01-10 01:07:07,864 [22   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-01-10 01:07:07,865 [22   ] Abp.Localization.LocalizationManager     - Initialized localization source: TaskList
+DEBUG 2017-01-10 01:07:07,866 [22   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-01-10 01:07:07,911 [22   ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-01-10 01:07:07,945 [22   ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2017-01-10 01:07:07,945 [22   ] Abp.AutoMapper.AbpAutoMapperModule       - TaskList.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-01-10 01:07:07,947 [22   ] Abp.AutoMapper.AbpAutoMapperModule       - TaskList.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-01-10 01:07:07,948 [22   ] Abp.AutoMapper.AbpAutoMapperModule       - TaskList.Users.Dto.CreateUserInput
+DEBUG 2017-01-10 01:07:07,948 [22   ] Abp.AutoMapper.AbpAutoMapperModule       - TaskList.Users.Dto.UserListDto
+DEBUG 2017-01-10 01:07:07,948 [22   ] Abp.AutoMapper.AbpAutoMapperModule       - TaskList.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-01-10 01:07:07,948 [22   ] Abp.AutoMapper.AbpAutoMapperModule       - TaskList.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-01-10 01:07:07,948 [22   ] Abp.AutoMapper.AbpAutoMapperModule       - TaskList.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-01-10 01:07:08,836 [22   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaskList.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-01-10 01:07:08,837 [22   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaskList.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-01-10 01:07:08,838 [22   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaskList.Tasks.ITaskAppService' with service name 'app/task'.
+DEBUG 2017-01-10 01:07:08,838 [22   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaskList.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-01-10 01:07:08,839 [22   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaskList.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-01-10 01:07:10,048 [106  ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected (on reconnected event): {"ConnectionId":"133956b9-99da-48bd-8e75-7e62b9e877e3","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-01-10T01:07:10.0172002+01:00","Properties":{}}
+DEBUG 2017-01-10 01:07:39,587 [104  ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2017-01-10 01:07:39,588 [104  ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-01-10 01:07:39,588 [104  ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-01-10 01:07:39,588 [104  ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2017-01-10 01:07:58,563 [91   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2017-01-10 01:07:58,568 [91   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-01-10 01:07:58,569 [91   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-01-10 01:07:58,569 [91   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2017-01-10 01:08:00,969 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-01-10 01:08:01,217 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2017-01-10 01:08:01,220 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TaskList.Web.TaskListWebModule, TaskList.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-10 01:08:01,222 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TaskList.TaskListDataModule, TaskList.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-10 01:08:01,222 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-10 01:08:01,222 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-10 01:08:01,222 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-10 01:08:01,222 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-10 01:08:01,222 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TaskList.TaskListCoreModule, TaskList.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-10 01:08:01,223 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TaskList.TaskListApplicationModule, TaskList.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-10 01:08:01,223 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-10 01:08:01,223 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TaskList.Api.TaskListWebApiModule, TaskList.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-10 01:08:01,223 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-10 01:08:01,223 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-10 01:08:01,223 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-10 01:08:01,223 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-10 01:08:01,223 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-10 01:08:01,225 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2017-01-10 01:08:01,678 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-01-10 01:08:01,678 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-01-10 01:08:01,678 [1    ] o.Configuration.LanguageManagementConfig - Converted TaskList (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-01-10 01:08:01,678 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-01-10 01:08:02,011 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: TaskList.EntityFramework.TaskListDbContext, TaskList.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-10 01:08:02,351 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-01-10 01:08:02,355 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-01-10 01:08:02,356 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-01-10 01:08:02,357 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: TaskList
+DEBUG 2017-01-10 01:08:02,357 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-01-10 01:08:02,403 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-01-10 01:08:02,434 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2017-01-10 01:08:02,434 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaskList.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-01-10 01:08:02,437 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaskList.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-01-10 01:08:02,437 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaskList.Users.Dto.CreateUserInput
+DEBUG 2017-01-10 01:08:02,437 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaskList.Users.Dto.UserListDto
+DEBUG 2017-01-10 01:08:02,437 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaskList.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-01-10 01:08:02,437 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaskList.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-01-10 01:08:02,437 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TaskList.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-01-10 01:08:03,327 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaskList.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-01-10 01:08:03,328 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaskList.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-01-10 01:08:03,329 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaskList.Tasks.ITaskAppService' with service name 'app/task'.
+DEBUG 2017-01-10 01:08:03,329 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaskList.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-01-10 01:08:03,330 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TaskList.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-01-10 01:08:04,412 [106  ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected (on reconnected event): {"ConnectionId":"b7f05ea1-50bd-4f10-a4f9-08bd5ad9a1fb","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-01-10T01:08:04.381203+01:00","Properties":{}}
+DEBUG 2017-01-10 01:08:07,301 [106  ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: b7f05ea1-50bd-4f10-a4f9-08bd5ad9a1fb
